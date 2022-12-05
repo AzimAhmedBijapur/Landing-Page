@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Solway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Solway&display=swap');
 /* *{
     border: solid 2px red;
 } */
 body{
     margin: 0px;
-    font-family: 'Solway', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 header{
     background-color: #1f2740;
@@ -39,10 +39,12 @@ nav ul li a{
 }
 .desc{
     width: 400px;
+    margin-top: -100px;
 }
 .subtext{
     font-size: 3rem;
     font-weight: bold;
+    margin: 0px;
 }
 .sub-subtext{
     font-size: 1.2rem;
@@ -61,7 +63,7 @@ nav ul li a{
     border: none;
     font-size: 1.2rem;
     color: white;
-    padding: 8px 13px;
+    padding: 8px 15px;
     border-radius: 10%;
     font-weight: bold;
 }
