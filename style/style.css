@@ -71,7 +71,7 @@ nav ul li a{
 .random-info{
     display: flex;
     flex-direction: column;
-    padding: 50px 20%;
+    padding: 40px 15%;
     gap: 30px;
 }
 .info-title{
@@ -169,7 +169,7 @@ button{
 }
 
 /* Media query */
-@media only screen and (max-width:900px){
+@media only screen and (max-width:1024px){
     .sign-up-subcontainer{
         padding: 5% 10%;
         justify-content: center;
@@ -274,7 +274,7 @@ button{
     }
      
 }
-@media only screen and (max-width:600px){
+@media only screen and (max-width:600px ){
     .sign-up-subcontainer{
         padding: 5% 10%;
         justify-content: center;
