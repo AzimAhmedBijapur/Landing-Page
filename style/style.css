@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Solway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,100&family=Solway&display=swap');
 /* *{
     border: solid 2px red;
 } */
@@ -64,6 +65,289 @@ nav ul li a{
     font-size: 1.2rem;
     color: white;
     padding: 8px 15px;
-    border-radius: 10%;
+    border-radius: 10px;
     font-weight: bold;
+}
+.random-info{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20%;
+    gap: 30px;
+}
+.info-title{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+.card-img{
+    display: flex;
+    flex-basis:200px;
+    width: 200px;
+    border-radius: 5%;
+    border: solid 5px #5794f7;
+}
+.card-content{
+    color: grey;
+    width: 200px;
+    text-align: center;
+    padding: 3px;
+}
+.quote-container{
+    display: flex;
+    background-color: #daeded;
+    flex-direction:column;
+    padding: 100px 30%;
+    justify-content: center;
+}
+.quote-container p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+}
+.quote-container span{
+    display: flex;
+    font-weight: bolder;
+    font-size:1.5rem;
+    justify-content: flex-end ;
+}
+.sign-up-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20%;
+    height: 300px;
+}
+.sign-up-subcontainer{
+    display: flex;
+    background-color: #0384fc;
+    color: white;
+    font-size: 1.5rem;
+    padding: 2% 15%;
+    gap: 60px;
+    border-radius: 15px;
+}
+.fc-sign-up p{
+    font-size: 1rem;
+}
+.sc-sign-up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sc-sign-up button{
+    width: 130px;
+    background-color: #0384fc;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10%;
+    border: solid 3px white;
+    border-radius: 5px;
+}
+footer{
+    display: flex;
+    background-color: #1f2740;
+    padding: 2% 10%;
+    font-size: 1.2rem;
+    color: white;
+    justify-content: center;
+}
+button{
+    cursor: pointer;
+}
+
+/* Media query */
+
+@media only screen and (max-width:600px){
+    .sign-up-subcontainer{
+        padding: 5% 10%;
+        justify-content: center;
+        display:block;
+    }
+    .fc-sign-up{
+        display: flex;
+        flex-direction:column ;
+        width: 300px;
+        justify-content: center;
+    }
+    .fc-sign-up p{
+        text-align: center;
+    }
+    .fc-sign-up b{
+        text-align: center;
+    }
+    footer{
+        padding: 5% 5%;
+        font-size: 0.8rem;
+    }
+    .quote-container{
+        padding: 80px 20%;
+        text-align: justify;
+    }
+    .quote-container p{
+        font-size: 1.2rem;
+    }
+    .quote-container span{
+        font-size: 1.2rem;
+    }
+    .card-container{
+        display: block;
+
+    }
+    .cards{
+        align-items: center;
+        padding: 10px;
+    }
+    .first-container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 5%;
+        height: 400px;
+    }
+    .img-container img{
+        height: auto;
+        width: 300px;
+    }
+    .first-container .desc .subtext{
+        font-size: 1.5rem;
+    }
+    .first-container .desc .sub-subtext{
+        font-size: 1rem;
+    }
+    .desc{
+        width: 400px;
+        height: auto;
+        padding-bottom:15px ;
+        text-align: center;
+        margin-top: 10px;
+        /* margin-top: -100px; */
+    }
+    .sign-up{
+        font-size:1rem ;
+    }
+    header .nav-logo{
+        font-size: 1.5rem;
+        padding-left: 5px;
+    }
+    header .nav-links{
+        font-size: 1rem;
+        gap: 20px;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 2%;
+    }
+    .info-title{
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+     
+}
+
+@media only screen and (max-width:900px){
+    .sign-up-subcontainer{
+        padding: 5% 10%;
+        justify-content: center;
+        display:block;
+    }
+    .fc-sign-up{
+        display: flex;
+        flex-direction:column ;
+        width: 300px;
+        justify-content: center;
+    }
+    .fc-sign-up p{
+        text-align: center;
+    }
+    .fc-sign-up b{
+        text-align: center;
+    }
+    footer{
+        padding: 5% 5%;
+        font-size: 0.8rem;
+    }
+    .quote-container{
+        padding: 80px 20%;
+        text-align: justify;
+    }
+    .quote-container p{
+        font-size: 1.2rem;
+    }
+    .quote-container span{
+        font-size: 1.2rem;
+    }
+    .card-container{
+        display: block;
+
+    }
+    .cards{
+        align-items: center;
+        padding: 10px;
+    }
+    .first-container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 5%;
+        height: 400px;
+    }
+    .img-container img{
+        height: auto;
+        width: 300px;
+    }
+    .first-container .desc .subtext{
+        font-size: 1.5rem;
+    }
+    .first-container .desc .sub-subtext{
+        font-size: 1rem;
+    }
+    .desc{
+        width: 400px;
+        height: auto;
+        padding-bottom:15px ;
+        text-align: center;
+        margin-top: 10px;
+        /* margin-top: -100px; */
+    }
+    .sign-up{
+        font-size:1rem ;
+    }
+    header .nav-logo{
+        font-size: 1.5rem;
+        padding-left: 5px;
+    }
+    header .nav-links{
+        font-size: 1rem;
+        gap: 20px;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 2%;
+    }
+    .info-title{
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+     
 }
