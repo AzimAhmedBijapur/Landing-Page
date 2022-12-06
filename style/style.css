@@ -40,7 +40,7 @@ nav ul li a{
 }
 .desc{
     width: 400px;
-    margin-top: -100px;
+    /* margin-top: -100px; */
 }
 .subtext{
     font-size: 3rem;
@@ -169,6 +169,12 @@ button{
 }
 
 /* Media query */
+@media only screen and (max-width:1280px) {
+    .img-container img{
+        height: auto;
+        width: 600px;
+    }
+}
 @media only screen and (max-width:1024px){
     .sign-up-subcontainer{
         padding: 5% 10%;
